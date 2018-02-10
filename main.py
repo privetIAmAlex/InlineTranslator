@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import re
 
-bot = telebot.TeleBot("485245927:AAHRvDNPHsj7e6BOYzj8-9GqpdyIVDH9xR4")
+bot = telebot.TeleBot(TOKEN)
 translator = Translator()
 
 pattern = re.compile(r"^(\w+) (\w+) (.*)")
